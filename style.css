@@ -1,0 +1,56 @@
+#content{
+	width: 888px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#imageright{
+    margin-left: 20px;
+    border: 1px solid green;
+    border-radius: 15px;
+    float: right;
+
+}
+#imageleft{
+    margin-right: 40px;
+    margin-bottom: 80px;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+}
+.kepszoveg{
+	font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.keretbal{
+    border: 1px solid green;
+    border-radius: 15px;
+    float: left;
+}
+h1, h2{
+    color: forestgreen;
+    text-transform: uppercase;
+}
+div, ul, ol{
+    text-align: justify;
+}
+img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+.wikilink{
+    color: blue;
+    display: inline;
+    text-transform: none;
+}
+body{
+    background-color: forestgreen;
+}
