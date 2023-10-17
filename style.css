@@ -61,3 +61,22 @@ body{
 .bekezdes{
     text-indent: 3em;
 }
+@media screen and (max-width: 600px) {
+    #imageleft{
+        float: none;
+        margin: 0 auto;
+    }
+    #imageright{
+        float:none;
+        margin: 0 auto;
+    }
+    #kepright{
+        width: 100%;
+    }
+    #kepleft{
+        width: 100%;
+    }
+    #content{
+        width: fit-content;
+    }
+}
