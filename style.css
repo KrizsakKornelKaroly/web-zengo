@@ -61,14 +61,16 @@ body{
 .bekezdes{
     text-indent: 3em;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #imageleft{
         float: none;
         margin: 0 auto;
+        width: 90%;
     }
     #imageright{
         float:none;
         margin: 0 auto;
+        width: 90%;
     }
     #kepright{
         width: 100%;
@@ -76,6 +78,32 @@ body{
     #kepleft{
         width: 100%;
     }
+    #content{
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 888px) {
+    #content{
+        width: fit-content;
+    }
+    #imageleft{
+        float: none;
+        margin: 0 auto;
+        width: 90%;
+    }
+    #imageright{
+        float: none;
+        margin: 0 auto;
+        width: 90%;
+    }
+    #kepright{
+        width: 100%;
+    }
+    #kepleft{
+        width: 100%;
+    }
+}
+@media  screen and (max-width: 1040px) {
     #content{
         width: fit-content;
     }
